@@ -15,12 +15,23 @@ This folder contains the Java OOP implementation and submission document for Ass
 src/
 ├── food/
 │   ├── model/
+│   │   ├── FoodOrder.java
+│   │   ├── RegularOrder.java
+│   │   └── PremiumOrder.java
 │   ├── service/
+│   │   └── Discountable.java
 │   ├── utility/
+│   │   └── OrderUtility.java
 │   └── main/
+│       └── Main.java
 └── library/
     ├── model/
+    │   ├── LibraryResource.java
+    │   ├── Book.java
+    │   └── DigitalResource.java
     ├── service/
+    │   └── Printable.java
     ├── util/
+    │   └── InputValidator.java
     └── main/
-
+        └── Main.java
