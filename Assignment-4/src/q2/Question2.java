@@ -129,7 +129,7 @@ class MediaPlayerQueue {
     }
 
     public void traverseBidirectional() {
-        System.out.println("\n--- Bidirectional Traversal using ListIterator ---");
+        System.out.println("\nBidirectional Traversal using ListIterator:");
         ListIterator<Song> it = queue.listIterator();
 
         System.out.println("Forward traversal:");

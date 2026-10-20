@@ -1,6 +1,6 @@
 # Assignment 2
 
-## UCS553 — Enterprise Web Application
+## UCS553: Enterprise Web Application
 
 This folder contains the Java OOP implementation and submission document for Assignment 2 (Week 3).
 
