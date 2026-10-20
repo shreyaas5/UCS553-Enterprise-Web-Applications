@@ -192,7 +192,7 @@ class CourseRegistrationPortal {
             System.out.println("Course not found.");
             return;
         }
-        System.out.println("\nCourse Details: " + course.getCourseCode() + " - " + course.getTitle());
+        System.out.println("\nCourse Details: " + course.getCourseCode() + ": " + course.getTitle());
         System.out.println("Capacity: " + course.getCapacity());
         System.out.println("Prerequisites: " + course.getPrerequisites());
         System.out.println("Enrolled Students (" + course.getEnrolledStudents().size() + "/" + course.getCapacity() + "): " + course.getEnrolledStudents());

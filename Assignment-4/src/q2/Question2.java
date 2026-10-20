@@ -44,7 +44,7 @@ class Song {
 
     @Override
     public String toString() {
-        return title + " - " + artist + " (" + duration + ")";
+        return title + " by " + artist + " (" + duration + ")";
     }
 }
 
@@ -136,14 +136,14 @@ class MediaPlayerQueue {
         while (it.hasNext()) {
             int nextIndex = it.nextIndex();
             Song s = it.next();
-            System.out.println("  [" + nextIndex + "] Forward -> " + s);
+            System.out.println("  [" + nextIndex + "] Forward: " + s);
         }
 
         System.out.println("\nBackward traversal:");
         while (it.hasPrevious()) {
             int prevIndex = it.previousIndex();
             Song s = it.previous();
-            System.out.println("  [" + prevIndex + "] Backward <- " + s);
+            System.out.println("  [" + prevIndex + "] Backward: " + s);
         }
     }
 }

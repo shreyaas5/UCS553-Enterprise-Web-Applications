@@ -4,7 +4,7 @@
 
 **Student Name:** Shreyaas Sachdeva  
 **Roll Number:** 1024030891  
-**Course:** UCS553 - Enterprise Web Applications  
+**Course:** UCS553: Enterprise Web Applications  
 
 This folder contains the Java implementation and submission document for Assignment 4 on Collections Framework & Generics.
 
